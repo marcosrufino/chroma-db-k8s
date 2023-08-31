@@ -5,7 +5,7 @@ metadata:
   labels:
     io.kompose.service: index-data
   name: index-data
-  namespace: default
+  namespace: cora-ai-chatbot
 spec:
   accessModes:
     - ReadWriteOnce
