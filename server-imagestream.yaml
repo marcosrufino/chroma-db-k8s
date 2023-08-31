@@ -13,7 +13,7 @@ spec:
     - annotations: null
       from:
         kind: DockerImage
-        name: mrufino/chroma:latest
+        name: mrufino/chroma-core:latest
       generation: null
       importPolicy: {}
       name: latest
