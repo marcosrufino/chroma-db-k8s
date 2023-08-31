@@ -5,7 +5,7 @@ metadata:
   labels:
     io.kompose.service: server
   name: server
-  namespace: default
+  namespace: cora-ai-chatbot
 spec:
   lookupPolicy:
     local: false
