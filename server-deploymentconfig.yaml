@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: server
-  name: server
+  name: chroma-core
   namespace: cora-ai-chatbot
 spec:
   replicas: 1
@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - image: ' '
-          name: server
+          name: chroma-core
           ports:
             - containerPort: 8000
               hostPort: 8000
